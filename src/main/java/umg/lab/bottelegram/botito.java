@@ -34,7 +34,7 @@ public class botito extends TelegramLongPollingBot {
         //Se verifica si la actualización contiene un mensaje y si ese mensaje tiene texto.
         //Luego se procesa el contenido del mensaje y se responde según el caso.
         if (update.hasMessage() && update.getMessage().hasText()) {
-            System.out.println("Hola " + nickname + "Tu nombre es " + nombre + "y tu apellido es " + apellido);
+            System.out.println("Holaaa " + nickname + "Tu nombre es " + nombre + "y tu apellido es " + apellido);
             String message_text = update.getMessage().getText();
             long chat_id = update.getMessage().getChatId();
 
