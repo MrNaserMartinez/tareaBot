@@ -84,10 +84,7 @@ public class tareaBot extends TelegramLongPollingBot {
         SendPhoto sendPhoto = new SendPhoto();
         sendPhoto.setChatId(chatId);
 
-        // Crear un objeto InputFile con la ruta de la imagen
         InputFile imageFile = new InputFile(new File(imagePath));
-
-        // Asignar el archivo de la imagen al objeto SendPhoto
         sendPhoto.setPhoto(imageFile);
 
         try {
