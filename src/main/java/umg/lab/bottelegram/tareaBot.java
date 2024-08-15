@@ -57,7 +57,7 @@ public class tareaBot extends TelegramLongPollingBot {
                 }
             } else if (messageText.startsWith("/grupal")) {
                 String mensaje = messageText.substring(8).trim();
-                List<Long> listaChats = List.of(6597569075L, 6688363556L, 1533824724L);
+                List<Long> listaChats = List.of(6597569075L, 6688363556L, 1533824724L, 6957944438L);
                 for (Long id : listaChats) {
                     sendText(id, mensaje);
                 }
