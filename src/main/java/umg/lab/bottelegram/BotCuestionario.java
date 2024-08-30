@@ -38,7 +38,7 @@ public class BotCuestionario extends TelegramLongPollingBot {
         }
 
         // Inicializa los cuestionarios con las preguntas.
-        preguntas.put("SECTION_1", new String[]{"🤦‍♂️1.1- Estas aburrido?", "😂😂 1.2- Te bañaste hoy?", "🤡🤡 Pregunta 1.3"});
+        preguntas.put("SECTION_1", new String[]{"🤦‍♂️1.1- Estas aburrido?", "😂😂 1.2- Te bañaste hoy yo creo que no?", "🤡🤡 Pregunta 1.3"});
         preguntas.put("SECTION_2", new String[]{"Pregunta 2.1", "2.2 Cuantos anios tienes?", "Pregunta 2.3"});
         preguntas.put("SECTION_3", new String[]{"Pregunta 3.1", "Pregunta 3.2", "Pregunta 3.3"});
         preguntas.put("SECTION_4", new String[]{"4.1 ¿cómo te llamas?", "4.2 Cuántos años tienes?", "4.3 qué comida te gusta?", "4.4 que fino, eres hombre o mujer?", "4.5 a que chido, y tienes pareja?", "4.6 el admin busca una si eres mujer, aceptas? y por que no?"});
