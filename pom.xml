@@ -37,6 +37,13 @@
             <artifactId>slf4j-api</artifactId>
             <version>1.7.36</version> <!-- O la última versión disponible -->
         </dependency>
+
+        <dependency>
+            <groupId>com.mysql</groupId>
+            <artifactId>mysql-connector-j</artifactId>
+            <version>8.0.33</version>
+        </dependency>
+
     </dependencies>
 
 
